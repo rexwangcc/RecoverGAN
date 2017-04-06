@@ -1,2 +1,2 @@
 # RecoverGAN
-Using GAN to recover noisy images
+Using GAN to recover noisy images, or called inpainting with GAN
