@@ -1,0 +1,3 @@
+#running instructions
+
+python3 main.py --dataset catface --is_crop True --is_train --epoch 100000
