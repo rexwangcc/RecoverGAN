@@ -1,4 +1,20 @@
-# Running instructions
+########################
+Prerequisites:
+    tensorflow 1.0
+    python 3.6
+    pillow
+    scipy
 
-# Example
+Datasets:
+    10 K cats and their blurred version
+
+Related works:
+    https://github.com/carpedm20/DCGAN-tensorflow
+########################
+
+
+# Example, standard
 python3 main.py --dataset catface --dataset2 catblur --is_crop --is_train --epoch 600
+
+# Example, scc version:
+qsub -l gpus=1 -l gpu_c=3.5 -j y -P dlearn run.sh
