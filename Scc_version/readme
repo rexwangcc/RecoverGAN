@@ -1,3 +1,4 @@
-#running instructions
+# Running instructions
 
-python3 main.py --dataset catface --is_crop True --is_train --epoch 100000
+# Example
+python3 main.py --dataset catface --dataset2 catblur --is_crop --is_train --epoch 600

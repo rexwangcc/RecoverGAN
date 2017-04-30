@@ -9,7 +9,7 @@ module load tensorflow/r1.0_python-3.6.0
 module load gcc
 
 #python3 pset5.py
-python3 yt.py
+python3 main.py --dataset catface --dataset2 catblur --is_crop --is_train --epoch 600
 
 #module unload tensorflow
 #module unload python
