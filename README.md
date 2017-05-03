@@ -32,7 +32,7 @@
 </p>
 
 <p align="center">
-  <img src="https://github.com/rexwangcc/RecoverGAN/blob/master/Final_version/results/cat_masked.png?raw=true" width="70%"/>
+  <img src="https://github.com/rexwangcc/RecoverGAN/blob/master/Final_version/results/cat_masked_random.png?raw=true" width="70%"/>
 </p>
 
 <p align="center">
@@ -60,7 +60,7 @@
 </p>
 
 <p align="center">
-  <img src="https://github.com/rexwangcc/RecoverGAN/blob/master/Final_version/results/aircraft_masked.png?raw=true" width="70%"/>
+  <img src="https://github.com/rexwangcc/RecoverGAN/blob/master/Final_version/results/aircraft_masked_random.png?raw=true" width="70%"/>
 </p>
 
 <p align="center">
