@@ -6,7 +6,7 @@
 
 
 <p align="center">
-  <img src="https://github.com/rexwangcc/RecoverGAN/blob/master/Final_version/Structure.png?raw=true" width="100%"/>
+  <img src="https://github.com/rexwangcc/RecoverGAN/blob/master/Final_version/Structure.png?raw=true" width="60%"/>
 </p>
 
 * Some results
@@ -14,25 +14,25 @@
 1. Inpainting center cropped cat faces
 
 <p align="center">
-  <img src="https://github.com/rexwangcc/RecoverGAN/blob/master/Final_version/inpaint_cat_xcsGAN_300-2000_center.gif?raw=true" width="100%"/>
+  <img src="https://github.com/rexwangcc/RecoverGAN/blob/master/Final_version/results/inpaint_cat_xcsGAN_300-2000_center.gif?raw=true" width="100%"/>
 </p>
 
 2. Inpainting random noised cat faces
 
 <p align="center">
-  <img src="https://github.com/rexwangcc/RecoverGAN/blob/master/Final_version/inpaint_cat_xcsGAN_300-2000_random.gif?raw=true" width="100%"/>
+  <img src="https://github.com/rexwangcc/RecoverGAN/blob/master/Final_version/results/inpaint_cat_xcsGAN_300-2000_random.gif?raw=true" width="100%"/>
 </p>
 
 3. Inpainting center cropped aircrafts
 
 <p align="center">
-  <img src="https://github.com/rexwangcc/RecoverGAN/blob/master/Final_version/inpaint_plane_xcsGAN_21-2000_center.gif?raw=true" width="100%"/>
+  <img src="https://github.com/rexwangcc/RecoverGAN/blob/master/Final_version/results/inpaint_plane_xcsGAN_21-2000_center.gif?raw=true" width="100%"/>
 </p>
 
 4. Inpainting random noised aircrafts
 
 <p align="center">
-  <img src="https://github.com/rexwangcc/RecoverGAN/blob/master/Final_version/inpaint_plane_xcsGAN_21-2000_random.gif?raw=true" width="100%"/>
+  <img src="https://github.com/rexwangcc/RecoverGAN/blob/master/Final_version/results/inpaint_plane_xcsGAN_21-2000_random.gif?raw=true" width="100%"/>
 </p>
 
 ### Advantages
