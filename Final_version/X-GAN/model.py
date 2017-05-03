@@ -12,6 +12,8 @@ from ops import *
 from utils import *
 
 # This should be considerated again
+# The original code is modified from DCGAN implementation:
+# https://github.com/carpedm20/DCGAN-tensorflow
 
 
 def conv_out_size_same(size, stride):
