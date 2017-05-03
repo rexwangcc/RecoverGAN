@@ -25,11 +25,11 @@ flags.DEFINE_integer(flag_name="train_size", default_value=np.inf,
                      docstring="The size of train images [np.inf]")
 flags.DEFINE_integer(flag_name="batch_size", default_value=64,
                      docstring="The size of batch images [64]")
-flags.DEFINE_integer(flag_name="input_height", default_value=128,
+flags.DEFINE_integer(flag_name="input_height", default_value=108,
                      docstring="The size of image to use (will be center cropped). [108]")
 flags.DEFINE_integer(flag_name="input_width", default_value=None,
                      docstring="The size of image to use (will be center cropped). If None, same value as input_height [None]")
-flags.DEFINE_integer(flag_name="output_height", default_value=80,
+flags.DEFINE_integer(flag_name="output_height", default_value=64,
                      docstring="The size of the output images to produce [64]")
 flags.DEFINE_integer(flag_name="output_width", default_value=None,
                      docstring="The size of the output images to produce. If None, same value as output_height [None]")
