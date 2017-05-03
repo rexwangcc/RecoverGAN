@@ -6,7 +6,7 @@
 
 
 <p align="center">
-  <img src="https://github.com/rexwangcc/RecoverGAN/blob/master/Final_version/Structure.png?raw=true" width="60%"/>
+  <img src="https://github.com/rexwangcc/RecoverGAN/blob/master/Final_version/Structure.png?raw=true" width="40%"/>
 </p>
 
 * Some results
@@ -14,25 +14,25 @@
 1. Inpainting center cropped cat faces
 
 <p align="center">
-  <img src="https://github.com/rexwangcc/RecoverGAN/blob/master/Final_version/results/inpaint_cat_xcsGAN_300-2000_center.gif?raw=true" width="100%"/>
+  <img src="https://github.com/rexwangcc/RecoverGAN/blob/master/Final_version/results/inpaint_cat_xcsGAN_300-2000_center.gif?raw=true" width="80%"/>
 </p>
 
 2. Inpainting random noised cat faces
 
 <p align="center">
-  <img src="https://github.com/rexwangcc/RecoverGAN/blob/master/Final_version/results/inpaint_cat_xcsGAN_300-2000_random.gif?raw=true" width="100%"/>
+  <img src="https://github.com/rexwangcc/RecoverGAN/blob/master/Final_version/results/inpaint_cat_xcsGAN_300-2000_random.gif?raw=true" width="80%"/>
 </p>
 
 3. Inpainting center cropped aircrafts
 
 <p align="center">
-  <img src="https://github.com/rexwangcc/RecoverGAN/blob/master/Final_version/results/inpaint_plane_xcsGAN_21-2000_center.gif?raw=true" width="100%"/>
+  <img src="https://github.com/rexwangcc/RecoverGAN/blob/master/Final_version/results/inpaint_plane_xcsGAN_21-2000_center.gif?raw=true" width="80%"/>
 </p>
 
 4. Inpainting random noised aircrafts
 
 <p align="center">
-  <img src="https://github.com/rexwangcc/RecoverGAN/blob/master/Final_version/results/inpaint_plane_xcsGAN_21-2000_random.gif?raw=true" width="100%"/>
+  <img src="https://github.com/rexwangcc/RecoverGAN/blob/master/Final_version/results/inpaint_plane_xcsGAN_21-2000_random.gif?raw=true" width="80%"/>
 </p>
 
 ### Advantages
@@ -68,9 +68,9 @@
 
 ## Instructions
 
-0. You need to prepare 2 dataset, one is original images and the other is noised original images, no need to have same images
+#### You need to prepare 2 dataset, one is original images and the other is noised original images, no need to have same images
 
-1. Train XGAN
+#### Train XGAN
 
 If dataset (all images under `./data/xxx1` and `./data/xxx2`)is already resized to 64x64, run:
 
@@ -80,7 +80,7 @@ Otherwise, run:
 
 `python main.py --dataset xxx1 --is_train --is_crop True --epoch 100 --dataset2 xxx2`
 
-2. Use model as an inpainter
+#### Use model as an inpainter
 
 `imgs`: path to testing dataset
 
